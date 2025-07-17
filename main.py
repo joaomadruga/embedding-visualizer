@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 import umap
